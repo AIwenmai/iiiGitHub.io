@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对话</title>
+    <style>
+        body{
+            background-image: url("https://s2.loli.net/2024/11/28/GuTONZ963bYIqQK.jpg");
+        }
+        #aside-left{
+            width: 22%;
+            height: 627px;
+            background-color: aliceblue;
+            opacity: 80%;
+            border-radius: 5PX;
+            float: left;
+        }
+        #div1{
+            width: 99%;
+            height: 100px;
+            /* background-color: aqua; */
+            position: relative;
+            left: 20px;
+        }
+        #div2{
+            width: 99%;
+            height: 45px;
+            background-image: url("https://s2.loli.net/2024/11/28/4zV9e1l3mxCDAvp.png");
+            /* background-color: rgb(68, 0, 255); */
+            position: relative;
+            left: 2.5px;
+        }
+        #div3{
+            width: 99%;
+            height: 45px;
+            /* background-color: rgb(117, 193, 73); */
+            position: relative;
+            left: 20px;
+        }
+        #div4{
+            width: 99%;
+            height: 200px;
+            /* background-color: rgb(193, 157, 73); */
+            position: relative;
+            left: 20px;
+        }
+        #div5{
+            width: 99%;
+            height: 45px;
+            /* background-color: rgb(73, 193, 81); */
+            position: relative;
+            left: 20px;
+        }
+        #div6{
+            width: 99%;
+            height: 200px;
+            /* background-color: rgb(73, 161, 193); */
+            position: relative;
+            left: 20px;
+        }
+        #img1{
+            width: 20%;
+            position:relative;
+            top: 15px;
+            left: 10px;
+
+        }
+        #img2{
+            width: 10.1%;
+            position:relative;
+            top: 8px;
+            left: 22px;
+        }
+        #img3{
+            width: 10.1%;
+            position:relative;
+            top: 5px;
+            left: 5px;
+        }
+        .tab{
+            text-decoration: none;
+            color: black;
+            height: 40px;
+            position: relative;
+            left: 10px;
+            top: -3px;
+        }
+        .a1{
+            color: black;
+            position: absolute;
+            top: 35px;
+            left: 75px;
+        }
+        .tab1{
+            text-decoration: none;
+            color: black;
+            height: 40px;
+            position: relative;
+            left: 43.5px;
+            top:4px;
+        }
+        #tab3{
+            
+           color: rgb(222, 119, 240);
+        }
+        
+        .tab:hover{
+            color: rgb(82, 108, 236);
+        }
+        .tab1:hover{
+            color: rgb(82, 108, 236);
+        }
+        .tab2:hover{
+            color: rgb(82, 108, 236);
+        }
+        .tab2{
+            text-decoration: none;
+            color: black;
+            height: 40px;
+            position: relative;
+            left: 26px;
+            top:2px;
+        }
+        .search-bar{
+            width: 70%;
+            height: 300px;
+            border: opx;
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            left: 335px;
+            top: 75px;
+        }
+        #div7{
+            position: relative;
+            left: 20px;
+        }
+        #img9{
+            width: 1%;
+            position: absolute;
+            bottom: 465px;
+            left:  250px;
+        }
+        #img10{
+            width: 1%;
+            position: absolute;
+            bottom: 220px;
+            left:  250px;
+        }
+        .search-input{
+            width: 79%;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            top: -50px;
+            left: 20px;
+            font-size: 11px;
+        }
+        #b1{
+            font-size: 20px;
+        }
+        #p1{
+            font-size: 23px;
+            position: relative;
+            top: -27px;
+        }
+        .div-bottom{
+            width: 70%;
+            height: 160px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            left: 335px;
+            top: 430px;    
+            border: opx;
+            border-radius: 20px;        
+        }
+        .search-input1{
+            width: 79%;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            top: 12px;
+            left: 20px;
+            font-size: 11px;
+        } 
+        #img11{
+            position:absolute;
+            width: 10%;
+            float: left;
+            top: 341px;
+            left:  785px;
+        }
+        /* 秋季 */
+        #img12{
+            position:absolute;
+            width: 13%;
+            float: left;
+            top: 342px;
+            left:  600px;
+        }
+        /* 珠海 */
+        #img13{
+            position:absolute;
+            width: 7%;
+            float: left;
+            top: 341px;
+            left:  490px;
+            /* 李子柒 */
+        }
+        #img14{
+            position:absolute;
+            width: 9%;
+            float: left;
+            top: 340px;
+            left:  935px;
+        }
+        /* 特朗普 */
+        #img15{
+            position:absolute;
+            width: 9%;
+            float: left;
+            top: 341px;
+            left:  1070px;
+        }
+        /* 冰顿顿 */
+        #img16{
+            position:absolute;
+            width: 8.9%;
+            float: left;
+            top: 340px;
+            left:  360px;
+            /* 习 */
+        }
+         #img18{
+            width: 7%;
+            position: absolute;
+            float: left;
+            bottom: 60px;
+            left:  358px;
+         }
+         #img19{
+            width: 4%;
+            position: absolute;
+            float: left;
+            bottom: 60px;
+            right:  58px;
+         }
+         #img20{
+            width: 2%;
+            position: absolute;
+            float: left;
+            bottom: 66px;
+            right:  70px;
+         }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+             <aside id="aside-left">
+                <img id="img9" src="https://s2.loli.net/2024/11/28/Fq4zytLNmpgYKa5.png" alt="">
+                <img id="img10" src="https://s2.loli.net/2024/11/28/Fq4zytLNmpgYKa5.png" alt="">                                           
+                <div id="div1">
+                    <img id="img1" src="https://s2.loli.net/2024/11/28/IALi2RGczgYOZSm.png" alt="">
+                    <a href="#" class="a1" data-content="login"><b>用户登录</b></a>
+                </div>
+                <div id="div2">
+                    <img id="img2" src="https://s2.loli.net/2024/11/28/KDdQFGhSxZ13IYu.png" alt="">
+                    <a href="#" class="tab2" data-content="login">首页</a>
+                    <!-- 首页 -->
+                </div>
+                <div class="tabs-container" id="div3">   
+                    <img id="img3" src="https://s2.loli.net/2024/11/28/KDdQFGhSxZ13IYu.png" alt="">                
+                    <a href="#" class="tab" data-content="tools">智能工具</a><br>
+                </div>   
+                <div id="div4">
+                    <a href="#" class="tab1" data-content="writing" id="tab3">A写作对话</a><br><br>
+                    <a href="#" class="tab1" data-content="image-creation">A图片制作</a><br><br>
+                    <a href="https://aiwenmai.github.io/iiGitHub.io/" class="tab1" data-content="text-recognition">A生成文本识别</a><br><br>
+                    <!-- 上传文件 -->
+                    <a href="#" class="tab1" data-content="image-recognition">A生成图片识别</a><br><br>
+                    <a href="#" class="tab1" data-content="audio-video-analysis">A音频视频分析</a><br><br>
+                </div>
+                <div class="tabs-container" id="div5">   
+                    <img id="img3" src="https://s2.loli.net/2024/11/28/KDdQFGhSxZ13IYu.png" alt="">                
+                    <a href="#" class="tab" data-content="tools">设置</a><br>
+                </div> 
+                <div id="div6">  
+                    <a href="#" class="tab1" data-content="history">历史测览</a><br><br>
+                    <a href="#" class="tab1" data-content="drafts">我的草稿</a><br><br>
+                </div>      
+            </aside>      
+            <article id="article-right">
+                <div class="search-bar">
+                    <div id="div7">
+                    <h4 id="b1">你好，</h4>
+                    <p id="p1">我是AI文脉·智鉴</p>
+                    </div>
+                    <input type="text" class="search-input" placeholder="作为你的智能助手系统，我可以帮助你识别AI模型生成的文本。">
+                </div >   
+                <aside class="aside-bottom">
+                    <div class="div-bottom">
+                        <input type="text" class="search-input1" placeholder="支持复制粘贴文件（文件大小50M左右）">
+                    </div>
+                    <img id="img18" src="https://s2.loli.net/2024/11/28/Hk9TAC5o12Yn4pK.png" alt="">
+                    <img id="img19" src="https://s2.loli.net/2024/11/28/ocBbRZwt7TFyxGg.jpg" alt="">
+                    <img id="img20" src="https://s2.loli.net/2024/11/28/5kFKtVMcDpJYGHz.png" alt="">
+                    <img id="img11" src="https://s2.loli.net/2024/11/28/G5IwYiMxr2tDvu8.jpg" alt="">
+                                    
+                    <img id="img12" src="https://s2.loli.net/2024/11/28/kDqiZ9mVL8C2oau.png" alt="">
+                    <img id="img13" src="https://s2.loli.net/2024/11/28/EOhn2tyUfYCDI5V.jpg" alt="">
+                    <img id="img14" src="https://s2.loli.net/2024/11/28/yA6PRD4hFarnmtb.jpg" alt="">
+                    <img id="img15" src="https://s2.loli.net/2024/11/28/2wrGB7ZhX4YCFfk.jpg" alt="">
+                    <img id="img16" src="https://s2.loli.net/2024/11/28/rxS7ChjKoIYsi32.jpg" alt="">
+                  
+           
+                </aside>        
+            </article>
+        </section>
+    </main>
+</body>
+</html>
